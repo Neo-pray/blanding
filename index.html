@@ -5,20 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>blending</title>
 
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="blending" />
-  <meta property="og:title" content="blending" />
-  <meta property="og:description" content="블랜딩" />
-  <meta property="og:image" content="./images/blending.png" />
-  <meta property="og:url" content="https://blending.co.kr" />
-
-  <meta property="twitter:card" content="summary" />
-  <meta property="twitter:site" content="blending" />
-  <meta property="twitter:title" content="blending" />
-  <meta property="twitter:description" content="블랜딩" />
-  <meta property="twitter:image" content="./images/starbucks_seo.jpg" />
-  <meta property="twitter:url" content="https://blending.co.kr" />
-
   <link rel="icon" href="./favicon.png" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -37,8 +23,7 @@
   <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
-  <script defer src="./js/youtube.js"></script>
+
   <script defer src="./js/common.js"></script>
   <script defer src="./js/main.js"></script>
 </head>
@@ -54,16 +39,16 @@
       <div class="sub-menu">
         <ul class="menu">
           <li>
-            <a href="/signin">Sign In</a>
+            <a href="/signin">Login</a>
           </li>
           <li>
-            <a href="javascript:void(0)">My Starbucks</a>
+            <a href="javascript:void(0)">내지갑</a>
           </li>
           <li>
-            <a href="javascript:void(0)">Customer Service & Ideas</a>
+            <a href="javascript:void(0)">커뮤니티</a>
           </li>
           <li>
-            <a href="javascript:void(0)">Find a Store</a>
+            <a href="javascript:void(0)">지도</a>
           </li>
         </ul>
         <div class="search">
@@ -73,56 +58,15 @@
       </div>
       <ul class="main-menu">
         <li class="item">
-          <div class="item__name">COFFEE</div>
+          <div class="item__name">이벤트</div>
           <div class="item__contents">
             <div class="contents__menu">
-              <ul class="inner">
-                <li>
-                  <h4>커피</h4>
-                  <ul>
-                    <li>스타벅스 원두</li>
-                    <li>스타벅스 비아</li>
-                    <li>스타벅스 오리가미</li>
-                  </ul>
-                </li>
-                <li>
-                  <h4>에스프레소 음료</h4>
-                  <ul>
-                    <li>도피오</li>
-                    <li>에스프레소 마키아또</li>
-                    <li>아메리카노</li>
-                    <li>마키아또</li>
-                    <li>카푸치노</li>
-                    <li>라떼</li>
-                    <li>모카</li>
-                    <li>리스트레또 비안코</li>
-                  </ul>
-                </li>
-                <li>
-                  <h4>커피 이야기</h4>
-                  <ul>
-                    <li>스타벅스 로스트 스팩트럼</li>
-                    <li>최상의 아라비카 원두</li>
-                    <li>한 잔의 커피가 완성되기까지</li>
-                    <li>클로버® 커피 추출 시스템</li>
-                  </ul>
-                </li>
-                <li>
-                  <h4>최상의 커피를 즐기는 법</h4>
-                  <ul>
-                    <li>커피 프레스</li>
-                    <li>푸어 오버</li>
-                    <li>아이스 푸어 오버</li>
-                    <li>커피 메이커</li>
-                    <li>리저브를 매장에서 다양하게 즐기는 법</li>
-                  </ul>
-                </li>
-              </ul>
+              <ul class="inner"></ul>
             </div>
             <div class="contents__texture">
               <div class="inner">
-                <h4>나와 어울리는 커피 찾기</h4>
-                <p>스타벅스가 여러분에게 어울리는 커피를 찾아드립니다.</p>
+                <h4>마시고 싶은 커피를 찾아보세요</h4>
+                <p>blanding이 여러분에게 어울리는 커피를 찾아드립니다.</p>
                 <h4>최상의 커피를 즐기는 법</h4>
                 <p>여러가지 방법을 통해 다양한 풍미의 커피를 즐겨보세요.</p>
               </div>
@@ -445,7 +389,7 @@
     </div>
     
     <!-- 프로모션 영역 -->
-    <div class="promotion"> <!--  노티스 안쪽에 만들어주어야 합니다. -->
+    <div class="promotion">
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -494,19 +438,6 @@
         <div class="btn sign-in">로그인</div>
         <div class="btn gift">e-Gift 선물하기</div>
       </div>
-    </div>
-  </section>
-
-  <!-- YOUTUBE VIDEO (유투브 영상 영역) -->
-  <section class="youtube">
-    <!-- 영상출력 구조 -->
-    <div class="youtube__area">
-      <div id="player"></div> 
-    </div>
-    <div class="youtube__cover"></div>
-    <div class="inner">
-      <img src="./images/floating1.png" alt="Icon" class="floating floating1" />
-      <img src="./images/floating2.png" alt="Icon" class="floating floating2" />
     </div>
   </section>
 
